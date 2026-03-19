@@ -10,8 +10,6 @@ In the current cybersecurity landscape, custom-written keyloggers can easily byp
 
 The project is designed around a Conceptual Dual-Layer Model:
 
-Kernel Layer (Proposed): A design for a Windows Driver (KMDF) intended to observe I/O Request Packets (IRPs) at the lowest possible level, ensuring system-wide visibility.
-
 User Layer (Planned): A monitoring service that analyzes process activities for specific Windows API calls, such as SetWindowsHookEx and GetAsyncKeyState, which are common markers of keylogging behavior.
 
 # 🧪 Methodology & Research Focus

@@ -45,3 +45,25 @@ Phase 4: Performance optimization and final report documentation.
 # 📝 Project Status
 
 This repository serves as the primary documentation for the Minor Project First Review (Feb 25, 2026). The current focus is on the theoretical validation of the proposed detection engine.
+
+## Standalone PoC: Global keyboard hook (console)
+
+This repo also includes a small standalone Windows console program, `keyboard_hook.cpp`, that installs a global low-level keyboard hook (`SetWindowsHookEx` with `WH_KEYBOARD_LL`) and prints virtual-key codes in real time while it runs a standard Windows message loop (`GetMessage` / `DispatchMessage`).
+
+### Build (MSVC Developer Command Prompt)
+
+```bat
+cl /EHsc /W4 keyboard_hook.cpp user32.lib
+```
+
+### Build (MinGW-w64 g++)
+
+```bat
+g++ -std=c++17 -O2 -Wall -Wextra -pedantic keyboard_hook.cpp -o keyboard_hook.exe -luser32
+```
+
+### Run
+
+```bat
+keyboard_hook.exe
+```

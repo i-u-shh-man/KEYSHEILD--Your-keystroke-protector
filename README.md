@@ -50,13 +50,31 @@ This repository serves as the primary documentation for the Minor Project First 
 
 This repo also includes a small standalone Windows console program, `keyboard_hook.cpp`, that installs a global low-level keyboard hook (`SetWindowsHookEx` with `WH_KEYBOARD_LL`) and prints virtual-key codes in real time while it runs a standard Windows message loop (`GetMessage` / `DispatchMessage`).
 
-### Build (MSVC Developer Command Prompt)
+### Quick build (recommended)
+
+From **PowerShell** in the repo root:
+
+```powershell
+.\build.ps1
+```
+
+Then run the printed `keyboard_hook.exe` path (usually `.\build\keyboard_hook.exe` or `.\build\Release\keyboard_hook.exe`).
+
+### Build (CMake manual)
+
+```powershell
+cmake -S . -B .\build
+cmake --build .\build --config Release
+.\build\Release\keyboard_hook.exe
+```
+
+### Build (MSVC Developer Command Prompt, no CMake)
 
 ```bat
 cl /EHsc /W4 keyboard_hook.cpp user32.lib
 ```
 
-### Build (MinGW-w64 g++)
+### Build (MinGW-w64 g++, no CMake)
 
 ```bat
 g++ -std=c++17 -O2 -Wall -Wextra -pedantic keyboard_hook.cpp -o keyboard_hook.exe -luser32

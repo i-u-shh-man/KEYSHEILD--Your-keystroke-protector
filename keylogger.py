@@ -29,11 +29,19 @@ pressed_keys = set()
 # ────────────────────────────────────────────────────────────────────────────
 
 
+def ensure_log_file_exists():
+    os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
+    if not os.path.exists(LOG_FILE):
+        with open(LOG_FILE, "w", encoding="utf-8") as f:
+            f.write("=== KeyShield keylog output ===\n")
+
+
 def get_timestamp():
     return datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
 def write_log(text: str):
+    ensure_log_file_exists()
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(text)
 
@@ -159,4 +167,5 @@ else:
 
 # ───────────────────── ENTRY POINT ─────────────────────
 if __name__ == "__main__":
+    ensure_log_file_exists()
     main()

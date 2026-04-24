@@ -1,0 +1,46 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug KeyShield Analyze",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/KeyShield.exe",
+            "args": ["analyze"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "build"
+        },
+        {
+            "name": "Debug KeyShield Hook",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/KeyShield.exe",
+            "args": ["hook"],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "console": "integratedTerminal",
+            "preLaunchTask": "build"
+        },
+        {
+            "name": "Python: Dashboard",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Dashboard.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Keylogger",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/keylogger.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}

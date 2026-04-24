@@ -5,7 +5,7 @@ KeyShield is a Windows-focused proof-of-concept repository for behavioral keylog
 ## What runs now
 
 - `analyze`: scores demo processes using simple behavioral heuristics
-- `hook`: installs a low-level keyboard hook and prints virtual-key codes
+- `hook`: installs a low-level keyboard hook, prints virtual-key codes, and appends keys to `keylog_output.txt`
 
 ## Project layout
 
@@ -53,6 +53,48 @@ KeyShield.exe analyze
 KeyShield.exe hook
 KeyShield.exe help
 ```
+
+## Complete Application Packaging
+
+The application has been packaged into standalone executables:
+
+### Python Components (Already Built)
+- `dist\Dashboard.exe` - GUI dashboard for threat monitoring
+- `dist\keylogger.exe` - Test keylogger application
+
+### C++ Component
+- `build\KeyShield.exe` - Main C++ executable (requires building)
+
+### Running the Complete Application
+
+1. **Build the C++ component:**
+   ```powershell
+   .\build_all.ps1
+   ```
+
+2. **Run all components together:**
+   ```bat
+   KeyShield_Launcher.bat
+   ```
+
+   This launcher will:
+   - Check for all required executables
+   - Start the Dashboard GUI
+   - Start the keylogger
+   - Prompt for KeyShield mode (analyze/hook)
+   - Run the selected mode
+
+### Creating an Installer
+
+To create a complete Windows installer:
+
+1. Ensure all components are built
+2. Run the Inno Setup compiler:
+   ```bat
+   "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" KeyShield_Installer.iss
+   ```
+
+This creates `installer\KeyShield_Installer.exe` which can be distributed and installed on any Windows system.
 
 ## Notes
 

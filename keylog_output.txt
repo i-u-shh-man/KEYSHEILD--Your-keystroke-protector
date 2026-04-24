@@ -1,89 +1,50 @@
+=== KeyShield keylog output ===
+Session initialized.
 
 
 ==================================================
-Session started: 2026-04-01 01:20:05
+Session started: 2026-04-24 23:40:17
 ==================================================
+[CMD]note
+[ENTER]
+[SHIFT]THIS BETTER WOR [BKSP]K NOW, [SHIFT]PLEASE, [SHIFT]FO [BKSP]R THE SAC[BKSP]KE OF GOD[CTRL][BKSP][ESC]
 
-
---- Logger stopped (Ctrl+C) at 2026-04-01 01:20:38 ---
-
-
-==================================================
-Session started: 2026-04-01 01:22:48
-==================================================
-[ALT][TAB][TAB][ALT][ALT][TAB][ALT][TAB][ALT][TAB][TAB][TAB][TAB][TAB][TAB][ALT]sidifsdi ijfejpfejps
-[ENTER]
-fjd fld
-[ENTER]
-s jlf[CAPS]
-[ENTER]
-JSG[CAPS]IJIDGJMD
-[ENTER]
-SG
-[ENTER]
-MKER
-[ENTER]
-GHKREH
-[ENTER]
-[CAPS]we[CAPS]wfje
-[ENTER]
-fsjdlfdsfl   tetttiei[BKSP][BKSP]  [SHIFT][SHIFT][CTRL]aa[CTRL][BKSP][BKSP][SHIFT]HI[SHIFT]hi  thtihsis i si s aa  chceheckc k ifi f thteh el logogggerer  isi s oorr[BKSP][BKSP][BKSP]w[BKSP]wrroo[BKSP][BKSP][BKSP][BKSP]oorrkkiinngg o ro r nontot//....````
-
-==================================================
-Session started: 2026-04-01 01:24:33
-==================================================
-[ALT][TAB][TAB][ALT][TAB][TAB][TAB][ALT][BKSP][BKSP][SHIFT]T[SHIFT]thihi  ii[BKSP][BKSP][BKSP][BKSP]s s ii  [BKSP][BKSP]ss  aa  cchehceckk  tto o sshhee[BKSP][BKSP][BKSP][BKSP]eeee[CTRL][CTRL][CTRL][CTRL][CTRL][CTRL][CTRL]aa[CTRL][BKSP][BKSP]tthihiss  isis a a  cchheecck k tto os seee e ifif  tthhee  lloogggegre r iis s wwoorrkkiinngg  fifinene..[CTRL]aa[CTRL][BKSP][BKSP][CTRL][CTRL]c
-
---- Logger stopped (Ctrl+C) at 2026-04-01 01:25:12 ---
+--- Logger stopped at 2026-04-24 23:40:40 ---
 
 
 ==================================================
-Session started: 2026-04-01 01:28:08
+Session started: 2026-04-24 23:50:34
 ==================================================
-[ALT][TAB][TAB][ALT][LEFT WINDOWS][LEFT WINDOWS]ntnete[DEL][DEL][BKSP][BKSP][BKSP][BKSP]oottee
+[CMD]note
+[ENTER]
+si sneor[CTRL][BKSP][ESC]
+
+--- Logger stopped at 2026-04-24 23:50:47 ---
+
+
+==================================================
+Session started: 2026-04-24 23:55:27
+==================================================
+[CMD]note
 [ENTER]
 
+
+--- Logger stopped (Ctrl+C) at 2026-04-24 23:55:31 ---
+
+
+==================================================
+Session started: 2026-04-24 23:55:50
+==================================================
+aosd q-w9 a[
 [ENTER]
-tthhiiss  iiss  aa  tteesstt  ttoo  sseeee  iiff  tthhee  kkeeyyllooggggeerr  iiss  wwoorrkkiinngg  ffiinnee  ........[CTRL]c
+d[CTRL][BKSP][ESC]
 
---- Logger stopped (Ctrl+C) at 2026-04-01 01:28:44 ---
-
-
-
-==================================================
-Session started: 2026-04-01 02:09:02
-==================================================
-[LEFT WINDOWS]nothis is a chek[BKSP]ck to see if the notepad is rec[BKSP]e keylogger is working v[BKSP]fine.....[ESC]
-
-==================================================
-Session started: 2026-04-01 02:13:05
-==================================================
-[CTRL]c
-
---- Logger stopped (Ctrl+C) at 2026-04-01 02:13:10 ---
+--- Logger stopped at 2026-04-24 23:55:58 ---
 
 
 ==================================================
-Session started: 2026-04-01 02:13:25
+Session started: 2026-04-24 23:57:04
 ==================================================
-ffeasdasadas[CTRL]c
+credentials ,,, hi how are you[ESC]
 
---- Logger stopped (Ctrl+C) at 2026-04-01 02:13:31 ---
-
-
-==================================================
-Session started: 2026-04-01 02:13:45
-==================================================
-hi, is thsi[BKSP][BKSP]is working[SHIFT]?[ALT][TAB][CTRL]c
-
---- Logger stopped (Ctrl+C) at 2026-04-01 02:13:56 ---
-
-
-==================================================
-Session started: 2026-04-01 02:26:12
-==================================================
-no
-[ENTER]
-is the keyloggerworking fine[SHIFT]???/ we'll see[BKSP][CTRL]c
-
---- Logger stopped (Ctrl+C) at 2026-04-01 02:26:45 ---
+--- Logger stopped at 2026-04-24 23:57:24 ---
